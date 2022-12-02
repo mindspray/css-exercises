@@ -4,18 +4,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 16px;
-	/* border: 1px solid black; */
+	/* border: 1px solid black; For debugging*/
 	padding: 8px;
-}
-
-.left-links ul {
-	display: flex;
-	gap: 16px;
-}
-.right-links ul {
-	display: flex;
-	gap: 16px;
 }
 
 .logo {
@@ -31,6 +21,8 @@ ul {
   list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	gap: 8px;
 }
 
 a {
