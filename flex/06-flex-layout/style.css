@@ -31,6 +31,8 @@ input {
 body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
 }
 
 ul {
@@ -41,8 +43,24 @@ ul {
 
 .header, .footer, .left-links, .right-links {
 	display: flex;
+	gap: 16px;
+	padding: 8px;
+	justify-content: space-between;
 }
 
-.header, .footer {
-	justify-content: space-between;
+.footer {
+	background-color: #eee;
+}
+
+.content {
+	align-self: center;
+}
+
+button {
+	padding: 8px 16px;
+}
+
+a {
+	text-decoration: none;
+	color: dimgray;
 }
